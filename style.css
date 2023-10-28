@@ -7,6 +7,16 @@
     scroll-padding-top: 60px;
 }
 
+.desktop_contacts .card-panel{
+   height: 450px;
+}
+
+.left_icon{
+    margin:10px 0;
+    margin-right: 10px;
+    float: left;
+}
+
 .mobile_contacts{
     display: none;
 }
@@ -91,6 +101,7 @@ body{
     text-align: center;
     
 }
+
 @media screen and (max-width: 768px) {
     *{
         margin: 0;
@@ -139,4 +150,20 @@ body{
         align-items: center;
     }
 
+    .mobile_container{
+        width: 96%;
+    }
+
+    .role{
+        padding-left: 22px;
+        color: white;
+    }
+
+}
+
+
+@media screen and (min-width: 768px){
+    .container_box{
+        width: 70%;
+    }
 }
